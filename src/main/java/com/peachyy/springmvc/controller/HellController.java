@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Created by Taoxs on 2017/10/23.
  */
 @RestController
-@RequestMapping(value = {"","{v}/"})
+@RequestMapping(value = {"","{v}/","{v}"})
 public class HellController {
     @RequestMapping(value = {"","/"})
     public BaseMessageResult hello3(){
